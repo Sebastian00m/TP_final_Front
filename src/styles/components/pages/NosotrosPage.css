@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    margin: 0;
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.tutores{
+    display: flex;
+    justify-content: space-between;
+}
+.tutor{
+    border: 1px solid #338f0b;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: #b8b7b7;
+}
+.tutor img{
+    border-radius: 50%;
+    max-width: 90%;
+    max-height: 30%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+h2,p.intro{
+    color: #ccc;
+}
+.tutor h3,
+.tutor h4{
+    color: #338f0b;
+    margin: 0;
+}
+.tutor h3{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.tutor h4{
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 4px;
+}
+.tutor p{
+    color: black;
+    font-size: 12px;
+}
